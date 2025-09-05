@@ -1,0 +1,676 @@
+{
+  "catalog": [
+    {
+      "Nome": "Pistola",
+      "Dano": "1d10 balístico",
+      "Munição": "9x19mm",
+      "Pente": "8",
+      "Cadência": "1",
+      "Alcance": "75m",
+      "Peso": "1,1kg",
+      "Preço": "DB$450,00"
+    },
+    {
+      "Nome": "Pistola automática",
+      "Dano": "1d10 balístico",
+      "Munição": "9x19mm",
+      "Pente": "10",
+      "Cadência": "5",
+      "Alcance": "65m",
+      "Peso": "1,2kg",
+      "Preço": "DB$520,00"
+    },
+    {
+      "Nome": "Revolver",
+      "Dano": "1d6 balístico",
+      "Munição": ".38 Special",
+      "Pente": "6 (tambor)",
+      "Cadência": "Revolver",
+      "Alcance": "35m",
+      "Peso": "0,7kg",
+      "Preço": "DB$380,00"
+    },
+    {
+      "Nome": "Revolver Pesado",
+      "Dano": "1d12 balístico",
+      "Munição": ".44 Magnum",
+      "Pente": "6 (tambor)",
+      "Cadência": "Revolver",
+      "Alcance": "40m",
+      "Peso": "0,9kg",
+      "Preço": "DB$425,00"
+    },
+    {
+      "Nome": "Canhão de mão",
+      "Dano": "3d8 balístico",
+      "Munição": ".50 Magnum",
+      "Pente": "7",
+      "Cadência": "1",
+      "Alcance": "65m",
+      "Peso": "1,7kg",
+      "Preço": "DB$700,00"
+    },
+    {
+      "Nome": "Escopeta cano serrado",
+      "Dano": "2d10 balístico",
+      "Munição": "12 Gauge",
+      "Pente": "2 (cano)",
+      "Cadência": "1",
+      "Alcance": "40m",
+      "Peso": "1,1kg",
+      "Preço": "DB$550,00"
+    },
+    {
+      "Nome": "Escopeta tática",
+      "Dano": "2d6 balístico",
+      "Munição": "20 Gauge",
+      "Pente": "7",
+      "Cadência": "1",
+      "Alcance": "45m",
+      "Peso": "3,6kg",
+      "Preço": "DB$5.300,00"
+    },
+    {
+      "Nome": "Rifle de tiro único",
+      "Dano": "3d6 balístico",
+      "Munição": ".308 Winchester",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "200m",
+      "Peso": "4,5kg",
+      "Preço": "DB$2.000,00"
+    },
+    {
+      "Nome": "Rifle pesado",
+      "Dano": "5d6 balístico",
+      "Munição": ".50 BMG",
+      "Pente": "11",
+      "Cadência": "1",
+      "Alcance": "1000m",
+      "Peso": "11,5kg",
+      "Preço": "DB$5.000,00"
+    },
+    {
+      "Nome": "Fuzil automático",
+      "Dano": "1d10 balístico",
+      "Munição": "5.56x45mm",
+      "Pente": "30/50",
+      "Cadência": "5",
+      "Alcance": "550m",
+      "Peso": "3,3kg",
+      "Preço": "DB$1.150,00"
+    },
+    {
+      "Nome": "Fuzil automático pesado",
+      "Dano": "2d6+2 balístico",
+      "Munição": "7.62x51mm",
+      "Pente": "25",
+      "Cadência": "5",
+      "Alcance": "450m",
+      "Peso": "11kg",
+      "Preço": "DB$3.500,00"
+    },
+    {
+      "Nome": "Metralhadora leve",
+      "Dano": "3d6+3 balístico",
+      "Munição": "5.56x45mm",
+      "Pente": "200",
+      "Cadência": "10",
+      "Alcance": "300m",
+      "Peso": "7kg",
+      "Preço": "DB$3.100,00"
+    },
+    {
+      "Nome": "Minigun",
+      "Dano": "3d10 balístico",
+      "Munição": "7.62x51mm",
+      "Pente": "1500 (15 rajadas)",
+      "Cadência": "rajada",
+      "Alcance": "400m",
+      "Peso": "24kg",
+      "Preço": "DB$40.500,00"
+    },
+    {
+      "Nome": "Lança foguetes",
+      "Dano": "10d10 explosão",
+      "Munição": "Rocket Missile",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "50m",
+      "Peso": "4,5kg",
+      "Preço": "DB$16.750,00"
+    },
+    {
+      "Nome": "Lança Granadas",
+      "Dano": "6d10 explosão",
+      "Munição": "40mm",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "30m",
+      "Peso": "1,5kg",
+      "Preço": "DB$11.150,00"
+    },
+    {
+      "Nome": "Lança Chamas (Katia Flavia)",
+      "Dano": "4d6 fogo",
+      "Munição": "Fuel tank",
+      "Pente": "150L (15 usos)",
+      "Cadência": "rajada",
+      "Alcance": "10m",
+      "Peso": "5,5kg",
+      "Preço": "DB$10.600,00"
+    },
+    {
+      "Nome": "Lança Raios (Mazda RX-8)",
+      "Dano": "6d6 elétrico",
+      "Munição": "220V Battery",
+      "Pente": "50.000A (5 usos)",
+      "Cadência": "rajada",
+      "Alcance": "10m",
+      "Peso": "5,5kg",
+      "Preço": "DB$6.500,00"
+    },
+    {
+      "Nome": "Lança Veneno (SBP)",
+      "Dano": "5d6 veneno",
+      "Munição": "Veneno",
+      "Pente": "100L (10 usos)",
+      "Cadência": "rajada",
+      "Alcance": "10m",
+      "Peso": "5,5kg",
+      "Preço": "DB$7.000,00"
+    },
+    {
+      "Nome": "Lança Arpão",
+      "Dano": "3d20 balístico",
+      "Munição": "Arpão",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "50m",
+      "Peso": "7,5kg",
+      "Preço": "DB$100.000,00"
+    },
+    {
+      "Nome": "Submetralhadora",
+      "Dano": "1d10 balístico",
+      "Munição": ".45 ACP",
+      "Pente": "50",
+      "Cadência": "5",
+      "Alcance": "80m",
+      "Peso": "2kg",
+      "Preço": "DB$550,00"
+    },
+    {
+      "Nome": "Rifle lever action",
+      "Dano": "1d12 balístico",
+      "Munição": ".308 Winchester",
+      "Pente": "6",
+      "Cadência": "2",
+      "Alcance": "110m",
+      "Peso": "4,1kg",
+      "Preço": "DB$3.100,00"
+    },
+    {
+      "Nome": "Evelyn (Bengala-rifle)",
+      "Dano": "2d10 balístico",
+      "Munição": ".308 Winchester",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "100m",
+      "Peso": "1,8kg",
+      "Preço": "DB$1.800,00"
+    },
+    {
+      "Nome": "Metralhadora pesada anti-blindado",
+      "Dano": "2d20 balístico",
+      "Munição": ".50 BMG",
+      "Pente": "100 (fita)",
+      "Cadência": "5",
+      "Alcance": "500m",
+      "Peso": "50kg",
+      "Preço": "DB$40.000,00"
+    },
+    {
+      "Nome": "C.A.N.H.A.O.",
+      "Dano": "12d12 contusão",
+      "Munição": "Bola 50cm",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "100m",
+      "Peso": "150kg",
+      "Preço": "DB$100.000,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Minigun de baixo cal.)",
+      "Dano": "3d4/Balístico",
+      "Munição": "9x23mm",
+      "Pente": "15",
+      "Cadência": "Rajada",
+      "Alcance": "curto/médio",
+      "Preço": "DB$10.000,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Espingarda Antip.)",
+      "Dano": "2d6/Contusão",
+      "Munição": "20 ga",
+      "Pente": "20",
+      "Cadência": "1",
+      "Alcance": "curto",
+      "Preço": "DB$10.000,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Canhão de Mão)",
+      "Dano": "2d12/Contusão",
+      "Munição": "Sucata",
+      "Pente": "5",
+      "Cadência": "1",
+      "Alcance": "curto/médio",
+      "Preço": "DB$10.000,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Stun-gun)",
+      "Dano": "2d6/elétrico",
+      "Munição": "Bateria 20V",
+      "Pente": "8",
+      "Cadência": "1",
+      "Alcance": "curto",
+      "Preço": "DB$10.000,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Morteiro de joelho)",
+      "Dano": "6d10 explosão",
+      "Munição": "20mm",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "100m",
+      "Preço": "DB$50.000,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Míssil de ombro)",
+      "Dano": "3d10 explosão",
+      "Munição": "Mini Missile",
+      "Pente": "10",
+      "Cadência": "10",
+      "Alcance": "150m",
+      "Preço": "DB$90.000,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Fire breath)",
+      "Dano": "4d6 fogo",
+      "Munição": "Fuel tank",
+      "Pente": "100L (10 usos)",
+      "Cadência": "rajada",
+      "Alcance": "10m",
+      "Preço": "DB$100.300,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Metralhadora pesada)",
+      "Dano": "3d20 balístico",
+      "Munição": ".50 BMG",
+      "Pente": "1500 (15 rajadas)",
+      "Cadência": "rajada",
+      "Alcance": "400m",
+      "Preço": "DB$200.000,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Escopeta pesada)",
+      "Dano": "7d4 balístico",
+      "Munição": "20 gauge",
+      "Pente": "5",
+      "Cadência": "1",
+      "Alcance": "150m",
+      "Preço": "DB$150.000,00"
+    },
+    {
+      "Nome": "Armamento de pebble (Arma de arco)",
+      "Dano": "6d6 elétrico",
+      "Munição": "540V Battery",
+      "Pente": "500.000A (50 usos)",
+      "Cadência": "rajada",
+      "Alcance": "15m",
+      "Preço": "DB$250.500,00"
+    },
+    {
+      "Nome": "Armamento pesado de pebble (Rail gun)",
+      "Dano": "10d20 balístico",
+      "Munição": "Metal ammo",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "1500m",
+      "Preço": "DB$1.500.000,00"
+    },
+    {
+      "Nome": "Armamento pesado de pebble (Canhão de artilharia)",
+      "Dano": "10d10 explosão",
+      "Munição": "100mm",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "+1500m",
+      "Preço": "DB$700.000,00"
+    },
+    {
+      "Nome": "Armamento pesado de pebble (S.A.M.)",
+      "Dano": "5d10 explosão",
+      "Munição": "S.A.M. Missile",
+      "Pente": "3",
+      "Cadência": "3",
+      "Alcance": "alvos aéreos teleguiado",
+      "Preço": "DB$2.375.000,00"
+    },
+    {
+      "Nome": "Armamento pesado de pebble (Rifle anti material)",
+      "Dano": "20d6 balístico",
+      "Munição": "20x138mm",
+      "Pente": "10",
+      "Cadência": "1",
+      "Alcance": "2000m",
+      "Preço": "DB$100.500.000,00"
+    },
+    {
+      "Nome": "Armamento pesado de pebble (Rifle sonoro)",
+      "Dano": "nenhum",
+      "Munição": "540V Battery",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "50m",
+      "Preço": "DB$5.000.000,00"
+    },
+    {
+      "Nome": "Armamento pesado de pebble (Napalm)",
+      "Dano": "8d6 fogo",
+      "Munição": "Fósforo branco",
+      "Pente": "1",
+      "Cadência": "1",
+      "Alcance": "50m raio",
+      "Preço": "A negociar no mercado negro"
+    },
+    {
+      "Nome": "Faca",
+      "Dano": "1d3 perfurante",
+      "Peso": "250g",
+      "Preço": "DB$5,00"
+    },
+    {
+      "Nome": "Faca de caça",
+      "Dano": "1d3+1 perfurante",
+      "Peso": "250g",
+      "Preço": "DB$15,00"
+    },
+    {
+      "Nome": "Faca de combate",
+      "Dano": "1d4 perfurante",
+      "Peso": "300g",
+      "Preço": "DB$20,00"
+    },
+    {
+      "Nome": "Baioneta",
+      "Dano": "1d4+2 perfurante",
+      "Peso": "350g",
+      "Preço": "DB$100,00"
+    },
+    {
+      "Nome": "Adaga",
+      "Dano": "1d4 perfurante",
+      "Peso": "250g",
+      "Preço": "DB$20,00"
+    },
+    {
+      "Nome": "Punhal",
+      "Dano": "1d4 perfurante",
+      "Peso": "150g",
+      "Preço": "DB$15,00"
+    },
+    {
+      "Nome": "Sai",
+      "Dano": "1d6 perfurante",
+      "Peso": "100g",
+      "Preço": "DB$30,00"
+    },
+    {
+      "Nome": "Adaga de aparar",
+      "Dano": "1d3 perfurante",
+      "Peso": "150g",
+      "Preço": "DB$30,00"
+    },
+    {
+      "Nome": "Machado de arremesso",
+      "Dano": "1d6 cortante",
+      "Peso": "1,5kg",
+      "Preço": "DB$5,00"
+    },
+    {
+      "Nome": "Machadinha",
+      "Dano": "1d6 cortante",
+      "Peso": "750g",
+      "Preço": "DB$15,00"
+    },
+    {
+      "Nome": "Machado de combate",
+      "Dano": "1d8 cortante",
+      "Peso": "1,2kg",
+      "Preço": "DB$25,00"
+    },
+    {
+      "Nome": "Machado de mão Jotun",
+      "Dano": "2d8 cortante",
+      "Peso": "3,5kg",
+      "Preço": "DB$275,00"
+    },
+    {
+      "Nome": "Espada curta",
+      "Dano": "1d6 perfurante",
+      "Peso": "2kg",
+      "Preço": "DB$100,00"
+    },
+    {
+      "Nome": "Espada Bastarda",
+      "Dano": "1d8 cortante",
+      "Peso": "3kg",
+      "Preço": "DB$120,00"
+    },
+    {
+      "Nome": "Espada Longa",
+      "Dano": "variável",
+      "Peso": "variável",
+      "Preço": "Depende do ferreiro"
+    },
+    {
+      "Nome": "Espada Larga",
+      "Dano": "1d8+2 cortante",
+      "Peso": "10kg",
+      "Preço": "DB$500,00"
+    },
+    {
+      "Nome": "Sabre",
+      "Dano": "1d6 cortante",
+      "Peso": "1kg",
+      "Preço": "DB$125,00"
+    },
+    {
+      "Nome": "Rapier",
+      "Dano": "1d8 perfurante",
+      "Peso": "750g",
+      "Preço": "DB$150,00"
+    },
+    {
+      "Nome": "Cimitarra",
+      "Dano": "2d6 cortante",
+      "Peso": "2kg",
+      "Preço": "DB$200,00"
+    },
+    {
+      "Nome": "Estoque",
+      "Dano": "4d8 perfurante",
+      "Peso": "2,5kg",
+      "Preço": "DB$1.000,00"
+    },
+    {
+      "Nome": "Machado de guerra",
+      "Dano": "1d12 cortante",
+      "Peso": "4kg",
+      "Preço": "DB$500,00"
+    },
+    {
+      "Nome": "Machado pesado",
+      "Dano": "1d20+2 cortante",
+      "Peso": "6,5kg (-2m speed)",
+      "Preço": "DB$1.350,00"
+    },
+    {
+      "Nome": "Machado motorizado",
+      "Dano": "1d4 cortante",
+      "Peso": "10,5kg",
+      "Preço": "DB$25.950,00"
+    },
+    {
+      "Nome": "Machado de guerra Jotun",
+      "Dano": "2d12 cortante",
+      "Peso": "5,5kg",
+      "Preço": "DB$500,00"
+    },
+    {
+      "Nome": "Martelete",
+      "Dano": "1d4 contusão",
+      "Peso": "1,5kg",
+      "Preço": "DB$5,00"
+    },
+    {
+      "Nome": "Martelo",
+      "Dano": "1d6+6 contusão",
+      "Peso": "3kg",
+      "Preço": "DB$50,00"
+    },
+    {
+      "Nome": "Martelo de guerra",
+      "Dano": "1d8+6 contusão",
+      "Peso": "5kg",
+      "Preço": "DB$75,00"
+    },
+    {
+      "Nome": "Martelo pique",
+      "Dano": "1d6+6 contusão",
+      "Peso": "4,5kg",
+      "Preço": "DB$90,00"
+    },
+    {
+      "Nome": "Bastão",
+      "Dano": "1d6 contusão",
+      "Peso": "variável",
+      "Preço": "DB$1,00"
+    },
+    {
+      "Nome": "Bastão espinhoso",
+      "Dano": "1d6+3 contusão",
+      "Peso": "variável",
+      "Preço": "DB$1,50"
+    },
+    {
+      "Nome": "Maça",
+      "Dano": "1d8+5 contusão",
+      "Peso": "2,5kg",
+      "Preço": "DB$25,00"
+    },
+    {
+      "Nome": "Morning star",
+      "Dano": "1d20+5 contusão",
+      "Peso": "3,5kg",
+      "Preço": "DB$30,00"
+    },
+    {
+      "Nome": "Pike",
+      "Dano": "1d8 perfurante",
+      "Peso": "2,5kg",
+      "Preço": "DB$150,00"
+    },
+    {
+      "Nome": "Lança pequena",
+      "Dano": "1d8 perfurante",
+      "Peso": "1,5kg",
+      "Preço": "DB$100,00"
+    },
+    {
+      "Nome": "Lança de cavalaria",
+      "Dano": "1d20 perfurante",
+      "Peso": "10kg",
+      "Preço": "DB$10.000,00"
+    },
+    {
+      "Nome": "Arpão",
+      "Dano": "1d20 perfurante",
+      "Peso": "5kg",
+      "Preço": "DB$100,00"
+    },
+    {
+      "Nome": "Gun Dagger",
+      "Dano": "1d4 perfurante",
+      "Peso": "1kg",
+      "Preço": "DB$10.000,00"
+    },
+    {
+      "Nome": "Gunblade",
+      "Dano": "2d8 cortante",
+      "Peso": "2kg",
+      "Preço": "DB$50.000,00"
+    },
+    {
+      "Nome": "Gun Axe",
+      "Dano": "2d6+5 cortante",
+      "Peso": "4kg",
+      "Preço": "DB$25.500,00"
+    },
+    {
+      "Nome": "Boom Hammer",
+      "Dano": "2d20 contusão",
+      "Peso": "20kg",
+      "Preço": "DB$100.000,00"
+    },
+    {
+      "Nome": "Ballistic Lance",
+      "Dano": "3d4 perfurante",
+      "Peso": "3kg",
+      "Preço": "DB$150.000,00"
+    },
+    {
+      "Nome": "Bow sword",
+      "Dano": "1d8(2x) cortante",
+      "Peso": "2kg",
+      "Preço": "DB$75.000,00"
+    },
+    {
+      "Nome": "Reiter Pallasch",
+      "Dano": "4d8 perfurante",
+      "Peso": "3kg",
+      "Preço": "DB$175,000"
+    },
+    {
+      "Nome": "Literal Cannon",
+      "Dano": "1d100",
+      "Peso": "1500kg",
+      "Preço": "Convença o mestre"
+    },
+    {
+      "Nome": "Par de manoplas de aço",
+      "Dano": "+2d4 contusão",
+      "Peso": "10kg",
+      "Preço": "DB$1.000,00"
+    },
+    {
+      "Nome": "Par de manoplas de chumbo",
+      "Dano": "+3d4 contusão",
+      "Peso": "40kg",
+      "Preço": "DB$10.000,00"
+    },
+    {
+      "Nome": "Par de manoplas de adamantita com espinhos",
+      "Dano": "+4d4 perfurante",
+      "Peso": "50kg",
+      "Preço": "DB$50.000,00"
+    },
+    {
+      "Nome": "Manopla Vault-TEX",
+      "Dano": "+5d12 contusão",
+      "Peso": "1,5kg",
+      "Preço": "DB$4.500.000,00"
+    }
+  ]
+}

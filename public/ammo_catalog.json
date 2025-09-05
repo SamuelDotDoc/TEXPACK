@@ -1,0 +1,262 @@
+[
+  {
+    "id": "ammo-9x19mm",
+    "name": "9x19mm (Caixa 50un)",
+    "type": "ammo",
+    "ammo": "9x19mm",
+    "weight_kg": 0.5,
+    "price_db": 45,
+    "qty": 50,
+    "notes": "Munição padrão para pistolas. Caixa com 50 cartuchos."
+  },
+  {
+    "id": "ammo-9x23mm",
+    "name": "9x23mm (Caixa 50un)",
+    "type": "ammo",
+    "ammo": "9x23mm",
+    "weight_kg": 0.5,
+    "price_db": 20,
+    "qty": 50,
+    "notes": "Munição para pistolas. Caixa com 50 cartuchos."
+  },
+  {
+    "id": "ammo-38special",
+    "name": ".38 Special (Caixa 50un)",
+    "type": "ammo",
+    "ammo": ".38 Special",
+    "weight_kg": 0.5,
+    "price_db": 25,
+    "qty": 50,
+    "notes": "Munição para revólveres. Caixa com 50 cartuchos."
+  },
+  {
+    "id": "ammo-45acp",
+    "name": ".45 ACP (Caixa 50un)",
+    "type": "ammo",
+    "ammo": ".45 ACP",
+    "weight_kg": 1.0,
+    "price_db": 40,
+    "qty": 50,
+    "notes": "Munição pesada para pistolas. Caixa com 50 cartuchos."
+  },
+  {
+    "id": "ammo-44magnum",
+    "name": ".44 Magnum (Caixa 50un)",
+    "type": "ammo",
+    "ammo": ".44 Magnum",
+    "weight_kg": 1.0,
+    "price_db": 45,
+    "qty": 50,
+    "notes": "Munição poderosa para revólveres. Caixa com 50 cartuchos."
+  },
+  {
+    "id": "ammo-50magnum",
+    "name": ".50 Magnum (Caixa 50un)",
+    "type": "ammo",
+    "ammo": ".50 Magnum",
+    "weight_kg": 1.5,
+    "price_db": 50,
+    "qty": 50,
+    "notes": "Munição de alto calibre para revólveres pesados. Caixa com 50 cartuchos."
+  },
+  {
+    "id": "ammo-556x45mm",
+    "name": "5.56x45mm (Caixa 20un)",
+    "type": "ammo",
+    "ammo": "5.56x45mm",
+    "weight_kg": 1.0,
+    "price_db": 250,
+    "qty": 20,
+    "notes": "Munição militar para rifles de assalto. Caixa com 20 cartuchos."
+  },
+  {
+    "id": "ammo-762x51mm",
+    "name": "7.62x51mm (Caixa 20un)",
+    "type": "ammo",
+    "ammo": "7.62x51mm",
+    "weight_kg": 1.5,
+    "price_db": 300,
+    "qty": 20,
+    "notes": "Munição de rifle pesado. Caixa com 20 cartuchos."
+  },
+  {
+    "id": "ammo-12gauge",
+    "name": "12 Gauge (Caixa 25un)",
+    "type": "ammo",
+    "ammo": "12 Gauge",
+    "weight_kg": 1.5,
+    "price_db": 25,
+    "qty": 25,
+    "notes": "Cartuchos para espingarda. Caixa com 25 cartuchos."
+  },
+  {
+    "id": "ammo-20gauge",
+    "name": "20 Gauge (Caixa 25un)",
+    "type": "ammo",
+    "ammo": "20 Gauge",
+    "weight_kg": 1.0,
+    "price_db": 20,
+    "qty": 25,
+    "notes": "Cartuchos para espingarda leve. Caixa com 25 cartuchos."
+  },
+  {
+    "id": "ammo-308winchester",
+    "name": ".308 Winchester (Caixa 20un)",
+    "type": "ammo",
+    "ammo": ".308 Winchester",
+    "weight_kg": 0.5,
+    "price_db": 30,
+    "qty": 20,
+    "notes": "Munição de caça para rifles. Caixa com 20 cartuchos."
+  },
+  {
+    "id": "ammo-50bmg",
+    "name": ".50 BMG (Caixa 10un)",
+    "type": "ammo",
+    "ammo": ".50 BMG",
+    "weight_kg": 1.0,
+    "price_db": 100,
+    "qty": 10,
+    "notes": "Munição anti-material para rifles pesados. Caixa com 10 cartuchos."
+  },
+  {
+    "id": "ammo-20x138mm",
+    "name": "20x138mm (Caixa 5un)",
+    "type": "ammo",
+    "ammo": "20x138mm",
+    "weight_kg": 5.0,
+    "price_db": 5000,
+    "qty": 5,
+    "notes": "Munição anti-blindagem de alta velocidade."
+  },
+  {
+    "id": "battery-220v",
+    "name": "Bateria 220V",
+    "type": "ammo",
+    "ammo": "220V Battery",
+    "weight_kg": 1.0,
+    "price_db": 500,
+    "qty": 1,
+    "notes": "Fonte de energia para armas elétricas leves."
+  },
+  {
+    "id": "battery-540v",
+    "name": "Bateria 540V",
+    "type": "ammo",
+    "ammo": "540V Battery",
+    "weight_kg": 5.0,
+    "price_db": 2000,
+    "qty": 1,
+    "notes": "Fonte de energia para armas elétricas pesadas."
+  },
+  {
+    "id": "fuel-tank",
+    "name": "Tanque de Combustível",
+    "type": "ammo",
+    "ammo": "Fuel Tank",
+    "weight_kg": 20.0,
+    "price_db": 750,
+    "qty": 1,
+    "notes": "Combustível para lança-chamas e armas incendiárias."
+  },
+  {
+    "id": "poison-tank",
+    "name": "Tanque de Veneno",
+    "type": "ammo",
+    "ammo": "Poison Tank",
+    "weight_kg": 15.0,
+    "price_db": 600,
+    "qty": 1,
+    "notes": "Veneno para armas químicas especializadas."
+  },
+  {
+    "id": "ammo-20mm",
+    "name": "Projétil 20mm",
+    "type": "ammo",
+    "ammo": "20mm",
+    "weight_kg": 5.0,
+    "price_db": 150,
+    "qty": 1,
+    "notes": "Projétil para canhões leves."
+  },
+  {
+    "id": "ammo-40mm",
+    "name": "Granada 40mm",
+    "type": "ammo",
+    "ammo": "40mm",
+    "weight_kg": 1.0,
+    "price_db": 200,
+    "qty": 1,
+    "notes": "Granada para lança-granadas."
+  },
+  {
+    "id": "ammo-100mm",
+    "name": "Projétil 100mm",
+    "type": "ammo",
+    "ammo": "100mm",
+    "weight_kg": 25.0,
+    "price_db": 1500,
+    "qty": 1,
+    "notes": "Projétil para canhões pesados."
+  },
+  {
+    "id": "mini-missile",
+    "name": "Mini Míssil",
+    "type": "ammo",
+    "ammo": "Mini Missile",
+    "weight_kg": 0.5,
+    "price_db": 100,
+    "qty": 1,
+    "notes": "Míssil compacto para lançadores portáteis."
+  },
+  {
+    "id": "rocket-missile",
+    "name": "Míssil Foguete",
+    "type": "ammo",
+    "ammo": "Rocket Missile",
+    "weight_kg": 5.0,
+    "price_db": 500,
+    "qty": 1,
+    "notes": "Míssil de médio alcance para lançadores."
+  },
+  {
+    "id": "sam-missile",
+    "name": "Míssil S.A.M.",
+    "type": "ammo",
+    "ammo": "S.A.M. Missile",
+    "weight_kg": 50.0,
+    "price_db": 10000,
+    "qty": 1,
+    "notes": "Míssil superfície-ar de alta tecnologia."
+  },
+  {
+    "id": "ball-50cm",
+    "name": "Bola de Canhão 50cm",
+    "type": "ammo",
+    "ammo": "Bola 50cm",
+    "weight_kg": 75.0,
+    "price_db": 1000,
+    "qty": 1,
+    "notes": "Projétil massivo para canhões de cerco."
+  },
+  {
+    "id": "metal-ammo",
+    "name": "Munição Metálica (Caixa 5un)",
+    "type": "ammo",
+    "ammo": "Metal Ammo",
+    "weight_kg": 0.5,
+    "price_db": 650,
+    "qty": 5,
+    "notes": "Munição especial de metal para armas experimentais."
+  },
+  {
+    "id": "white-phosphorus",
+    "name": "Fósforo Branco",
+    "type": "ammo",
+    "ammo": "White Phosphorus",
+    "weight_kg": 0.1,
+    "price_db": 0,
+    "qty": 1,
+    "notes": "Material incendiário especial. Preço não disponível."
+  }
+]

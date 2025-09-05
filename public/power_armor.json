@@ -1,0 +1,37 @@
+{
+  "armor_catalog": [
+    {
+      "Nome": "T3X-45",
+      "Preco": "100.000 Dims",
+      "CA": "25",
+      "Atributos": [
+        "For +5",
+        "Min. Con 18",
+        "Tanque de 15 L"
+      ],
+      "Tipo": "Especial"
+    },
+    {
+      "Nome": "T3X-50 - Tesla",
+      "Preco": "110.000 Dims",
+      "CA": "20",
+      "Atributos": [
+        "Resistência a dano elétrico",
+        "Min. Con 16",
+        "Tanque de 10 L"
+      ],
+      "Tipo": "Especial"
+    },
+    {
+      "Nome": "T3X-45 - Avançada",
+      "Preco": "150.000 Dims",
+      "CA": "25",
+      "Atributos": [
+        "Resistência a dano de fogo",
+        "Min. Con 18",
+        "Tanque de 20 L"
+      ],
+      "Tipo": "Especial"
+    }
+  ]
+}

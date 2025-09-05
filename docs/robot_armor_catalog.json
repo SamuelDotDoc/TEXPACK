@@ -1,0 +1,85 @@
+{
+  "armor_catalog": [
+    {
+      "Nome": "Placas leves Scarmander's",
+      "Preco": "1000 Dims",
+      "CA": "13 + modificador de Des",
+      "Forca": "-",
+      "Furtividade": "-",
+      "Peso": "100 Kg",
+      "Tipo": "Módulos de mobilidade"
+    },
+    {
+      "Nome": "Liga leve Miura Corp.",
+      "Preco": "5000 Dims",
+      "CA": "14 + modificador de Des",
+      "Forca": "-",
+      "Furtividade": "-",
+      "Peso": "150 Kg",
+      "Tipo": "Módulos de mobilidade"
+    },
+    {
+      "Nome": "Placa de alumínio Delta Tech",
+      "Preco": "6000 Dims",
+      "CA": "15 + modificador de Des",
+      "Forca": "-",
+      "Furtividade": "-",
+      "Peso": "200 Kg",
+      "Tipo": "Módulos de mobilidade"
+    },
+    {
+      "Nome": "Placa de aço Müller Ideas",
+      "Preco": "5500 Dims",
+      "CA": "15 + modificador de destreza (Max. +2)",
+      "Forca": "-",
+      "Furtividade": "Desvantagem",
+      "Peso": "200 Kg",
+      "Tipo": "Módulos de versatilidade"
+    },
+    {
+      "Nome": "Revestimento de cerâmica Ulrick Protections",
+      "Preco": "6500 Dims",
+      "CA": "16 + modificador de destreza (Max. +2)",
+      "Forca": "-",
+      "Furtividade": "Desvantagem",
+      "Peso": "250 Kg",
+      "Tipo": "Módulos de versatilidade"
+    },
+    {
+      "Nome": "Pele de gárgula sintética Allen Inc.",
+      "Preco": "7000 Dims",
+      "CA": "17 + modificador de destreza (Max. +1)",
+      "Forca": "-",
+      "Furtividade": "Desvantagem",
+      "Peso": "350 Kg",
+      "Tipo": "Módulos de versatilidade"
+    },
+    {
+      "Nome": "Revestimento em aço negro Jirov corp.",
+      "Preco": "9000 Dims",
+      "CA": "18",
+      "Forca": "For 17",
+      "Furtividade": "Desvantagem",
+      "Peso": "400 Kg",
+      "Tipo": "Módulos de proteção pesada"
+    },
+    {
+      "Nome": "Escamas de dragão sintético Xin Ao Inc.",
+      "Preco": "10000 Dims",
+      "CA": "19",
+      "Forca": "For 18",
+      "Furtividade": "Desvantagem",
+      "Peso": "500 Kg",
+      "Tipo": "Módulos de proteção pesada"
+    },
+    {
+      "Nome": "Módulo de proteção avançada Rika Armory",
+      "Preco": "15000 Dims",
+      "CA": "20",
+      "Forca": "For 20",
+      "Furtividade": "Desvantagem",
+      "Peso": "900 Kg",
+      "Tipo": "Módulos de proteção pesada"
+    }
+  ]
+}

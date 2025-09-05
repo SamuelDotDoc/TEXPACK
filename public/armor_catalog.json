@@ -1,0 +1,112 @@
+{
+  "armor_catalog": [
+    {
+      "Nome": "Roupa civil de Lucis",
+      "Preco": "100 Dims",
+      "CA": "11 + modificador de Des",
+      "Forca": "-",
+      "Furtividade": "-",
+      "Peso": "1,5 Kg",
+      "Tipo": "Leve"
+    },
+    {
+      "Nome": "Jaqueta de couro Cartez",
+      "Preco": "50 Dims",
+      "CA": "11 + modificador de Des",
+      "Forca": "-",
+      "Furtividade": "Desvantagem",
+      "Peso": "1,5 Kg",
+      "Tipo": "Leve"
+    },
+    {
+      "Nome": "Uniforme de vigia Bretão",
+      "Preco": "450 Dims",
+      "CA": "12 + modificador de Des",
+      "Forca": "-",
+      "Furtividade": "-",
+      "Peso": "6 Kg",
+      "Tipo": "Leve"
+    },
+    {
+      "Nome": "Camisa de proteção pessoal Bretã",
+      "Preco": "100 Dims",
+      "CA": "12 + modificador de destreza (max. +2)",
+      "Forca": "-",
+      "Furtividade": "-",
+      "Peso": "2 Kg",
+      "Tipo": "Média"
+    },
+    {
+      "Nome": "Sobretudo policial Bretão",
+      "Preco": "500 Dims",
+      "CA": "13 + modificador de destreza (max. +2)",
+      "Forca": "-",
+      "Furtividade": "-",
+      "Peso": "5 Kg",
+      "Tipo": "Média"
+    },
+    {
+      "Nome": "Colete pré-guerra Cartez",
+      "Preco": "500 Dims",
+      "CA": "14 + modificador de destreza (max. +2)",
+      "Forca": "-",
+      "Furtividade": "Desvantagem",
+      "Peso": "5 Kg",
+      "Tipo": "Média"
+    },
+    {
+      "Nome": "Armadura de Shogun Lucien",
+      "Preco": "4000 Dims",
+      "CA": "15 + modificador de destreza (max. +3)",
+      "Forca": "For 12",
+      "Furtividade": "Desvantagem",
+      "Peso": "20 Kg",
+      "Tipo": "Média"
+    },
+    {
+      "Nome": "Vestes comuns de Jotunheim",
+      "Preco": "7500 Dims",
+      "CA": "16 + modificador de destreza (max. +1)",
+      "Forca": "-",
+      "Furtividade": "-",
+      "Peso": "15 Kg",
+      "Tipo": "Média"
+    },
+    {
+      "Nome": "Traje de guerra Jotnar",
+      "Preco": "300 Dims",
+      "CA": "14",
+      "Forca": "For 13",
+      "Furtividade": "-",
+      "Peso": "32 Kg",
+      "Tipo": "Pesada"
+    },
+    {
+      "Nome": "Sobretudo militar Bretão",
+      "Preco": "1000 Dims",
+      "CA": "16",
+      "Forca": "-",
+      "Furtividade": "Desvantagem",
+      "Peso": "10 Kg",
+      "Tipo": "Pesada"
+    },
+    {
+      "Nome": "Exoesqueleto Vault-TEX",
+      "Preco": "10000 Dims",
+      "CA": "17",
+      "Forca": "-",
+      "Furtividade": "Desvantagem",
+      "Peso": "5 Kg",
+      "Tipo": "Pesada"
+    },
+    {
+      "Nome": "Armadura de placas de aço negro",
+      "Preco": "15000 Dims",
+      "CA": "18",
+      "Forca": "For 15",
+      "Furtividade": "Desvantagem",
+      "Peso": "40 Kg",
+      "Tipo": "Pesada"
+    }
+  ]
+}

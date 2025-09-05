@@ -1,0 +1,42 @@
+{
+  "ammo_catalog": {
+    "municoes_comuns": [
+      { "calibre": "9x19mm", "caixa": 50, "preco": "DB$45,00", "peso_caixa": "0,5kg" },
+      { "calibre": "9x23mm", "caixa": 50, "preco": "DB$20,00", "peso_caixa": "0,5kg" },
+      { "calibre": ".38 Special", "caixa": 50, "preco": "DB$25,00", "peso_caixa": "0,5kg" },
+      { "calibre": ".45 ACP", "caixa": 50, "preco": "DB$40,00", "peso_caixa": "1,0kg" },
+      { "calibre": ".44 Magnum", "caixa": 50, "preco": "DB$45,00", "peso_caixa": "1,0kg" },
+      { "calibre": ".50 Magnum", "caixa": 50, "preco": "DB$50,00", "peso_caixa": "1,5kg" },
+      { "calibre": "5.56x45mm", "caixa": 20, "preco": "DB$250,00", "peso_caixa": "1,0kg" },
+      { "calibre": "7.62x51mm", "caixa": 20, "preco": "DB$300,00", "peso_caixa": "1,5kg" },
+      { "calibre": "12 Gauge", "caixa": 25, "preco": "DB$25,00", "peso_caixa": "1,5kg" },
+      { "calibre": "20 Gauge", "caixa": 25, "preco": "DB$20,00", "peso_caixa": "1,0kg" },
+      { "calibre": ".308 Winchester", "caixa": 20, "preco": "DB$30,00", "peso_caixa": "0,5kg" },
+      { "calibre": ".50 BMG", "caixa": 10, "preco": "DB$100,00", "peso_caixa": "1,0kg" }
+    ],
+    "municoes_modificadas": [
+      { "tipo": "Antipessoal", "caixa": "x1 caixa original", "preco": "x1 preço original", "peso": "= peso original" },
+      { "tipo": "Armor Piercing", "caixa": "x1 caixa original", "preco": "x1,5 preço original", "peso": "+0,5kg peso original" },
+      { "tipo": "Ponta oca", "caixa": "x1 caixa original", "preco": "x1,5 preço original", "peso": "-0,5kg peso original" },
+      { "tipo": "Incendiaria", "caixa": "x0,5 caixa original", "preco": "x2 preço original", "peso": "+1kg peso original" },
+      { "tipo": "Explosiva", "caixa": "x0,5 caixa original", "preco": "x2,5 preço original", "peso": "+1kg peso original" }
+    ],
+    "municoes_especiais": [
+      { "tipo": "220V Battery", "caixa": 1, "preco": "DB$500,00", "peso_caixa": "1kg" },
+      { "tipo": "540V Battery", "caixa": 1, "preco": "DB$2.000,00", "peso_caixa": "5kg" },
+      { "tipo": "Fuel tank", "caixa": 1, "preco": "DB$750,00", "peso_caixa": "20kg" },
+      { "tipo": "Veneno", "caixa": 1, "preco": "DB$600,00", "peso_caixa": "15kg" },
+      { "tipo": "20mm", "caixa": 1, "preco": "DB$150,00", "peso_caixa": "5kg" },
+      { "tipo": "40mm", "caixa": 1, "preco": "DB$200,00", "peso_caixa": "1kg" },
+      { "tipo": "100mm", "caixa": 1, "preco": "DB$1.500,00", "peso_caixa": "25kg" },
+      { "tipo": "Mini Missile", "caixa": 1, "preco": "DB$100,00", "peso_caixa": "0,5kg" },
+      { "tipo": "Rocket Missile", "caixa": 1, "preco": "DB$500,00", "peso_caixa": "5kg" },
+      { "tipo": "S.A.M. Missile", "caixa": 1, "preco": "DB$10.000,00", "peso_caixa": "50kg" },
+      { "tipo": "Bola 50cm", "caixa": 1, "preco": "DB$1.000,00", "peso_caixa": "75kg" },
+      { "tipo": "Metal ammo", "caixa": 5, "preco": "DB$650,00", "peso_caixa": "0,5kg" },
+      { "tipo": "20x138mm", "caixa": 5, "preco": "DB$5.000,00", "peso_caixa": "5kg" },
+      { "tipo": "Fósforo branco", "caixa": 1, "preco": "N/A", "peso_caixa": "0,1kg" }
+    ]
+  }
+}
+

@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base */
+body {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #1E1B18 0%, #2A2520 100%);
+  color: #F5F3F1;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Scrollbar customizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1E1B18;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8B5E3C;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B07A4B;
+}
+
+@layer components {
+  .steampunk-card {
+    @apply bg-gray-800/20 border border-yellow-600/50 rounded-lg shadow-lg backdrop-blur-sm;
+  }
+
+  .steampunk-button {
+    @apply bg-yellow-700 hover:bg-yellow-600 text-white font-medium py-2 px-4 rounded transition-colors duration-200;
+  }
+
+  .steampunk-input {
+    @apply bg-gray-900/50 border border-yellow-600/50 text-white rounded px-3 py-2 focus:outline-none focus:border-yellow-500;
+  }
+
+  /* Slots do inventário */
+  .inventory-slot {
+    @apply w-16 h-16 border-2 border-yellow-600/30 rounded bg-gray-900/40 flex items-center justify-center transition-all duration-200;
+  }
+
+  .inventory-slot:hover {
+    @apply border-yellow-600/60 bg-gray-900/60;
+  }
+
+  .inventory-slot.occupied {
+    @apply border-yellow-500/50 bg-yellow-900/10;
+  }
+
+  /* Itens */
+  .item-card {
+    @apply w-14 h-14 rounded cursor-move transition-transform duration-200;
+  }
+
+  .item-card:hover {
+    @apply scale-105;
+  }
+
+  .item-card.dragging {
+    @apply opacity-50 scale-95;
+  }
+
+  /* Drop target styles */
+  .drop-target {
+    @apply border-green-400/70 bg-green-900/20 scale-105;
+  }
+
+  /* Weapon SVG color styles */
+  .weapon-icon-container svg {
+    transition: filter 0.2s ease-in-out;
+  }
+
+  .weapon-icon-container svg path,
+  .weapon-icon-container svg circle,
+  .weapon-icon-container svg rect,
+  .weapon-icon-container svg polygon,
+  .weapon-icon-container svg g {
+    fill: var(--svg-fill, currentColor) !important;
+  }
+
+  /* Sobrescrever cores escuras específicas */
+  .weapon-icon-container svg [fill="#000"],
+  .weapon-icon-container svg [fill="#000000"],
+  .weapon-icon-container svg [fill="black"],
+  .weapon-icon-container svg [fill="#333"],
+  .weapon-icon-container svg [fill="#333333"],
+  .weapon-icon-container svg [fill="#222"],
+  .weapon-icon-container svg [fill="#222222"],
+  .weapon-icon-container svg [fill="#111"],
+  .weapon-icon-container svg [fill="#111111"],
+  .weapon-icon-container svg [fill="#444"],
+  .weapon-icon-container svg [fill="#444444"],
+  .weapon-icon-container svg [fill="#555"],
+  .weapon-icon-container svg [fill="#555555"],
+  .weapon-icon-container svg [fill="#666"],
+  .weapon-icon-container svg [fill="#666666"],
+  .weapon-icon-container svg [fill="#777"],
+  .weapon-icon-container svg [fill="#777777"],
+  .weapon-icon-container svg [fill="#888"],
+  .weapon-icon-container svg [fill="#888888"],
+  .weapon-icon-container svg [fill="#999"],
+  .weapon-icon-container svg [fill="#999999"],
+  .weapon-icon-container svg [fill="gray"],
+  .weapon-icon-container svg [fill="grey"],
+  .weapon-icon-container svg [fill="darkgray"],
+  .weapon-icon-container svg [fill="darkgrey"] {
+    fill: var(--svg-fill, currentColor) !important;
+  }
+
+  /* Força a aplicação da cor em todos os elementos SVG */
+  .weapon-icon-container[style*="--svg-fill"] svg,
+  .weapon-icon-container[style*="--svg-fill"] svg *,
+  .weapon-icon-container[style*="--svg-fill"] svg path,
+  .weapon-icon-container[style*="--svg-fill"] svg circle,
+  .weapon-icon-container[style*="--svg-fill"] svg rect,
+  .weapon-icon-container[style*="--svg-fill"] svg polygon,
+  .weapon-icon-container[style*="--svg-fill"] svg ellipse,
+  .weapon-icon-container[style*="--svg-fill"] svg line,
+  .weapon-icon-container[style*="--svg-fill"] svg polyline,
+  .weapon-icon-container[style*="--svg-fill"] svg g,
+  .weapon-icon-container[style*="--svg-fill"] svg g * {
+    fill: var(--svg-fill) !important;
+    stroke: var(--svg-fill) !important;
+    color: var(--svg-fill) !important;
+  }
+
+  /* Sobrescrever especificamente SVGs com fill preto */
+  .weapon-icon-container[style*="--svg-fill"] svg[fill="#000000"],
+  .weapon-icon-container[style*="--svg-fill"] svg[fill="#000"],
+  .weapon-icon-container[style*="--svg-fill"] svg[fill="black"] {
+    fill: var(--svg-fill) !important;
+  }
+
+  /* Força cor específica para imagens SVG */
+.weapon-icon-container img[src$=".svg"] {
+  filter: var(--svg-filter, none) !important;
+}
+
+/* Cor padrão cinza claro para munições no catálogo */
+.item-card .weapon-icon-container:not([style*="--svg-fill"]) svg {
+  fill: #9CA3AF !important;
+  stroke: #9CA3AF !important;
+  color: #9CA3AF !important;
+}
+
+.item-card .weapon-icon-container:not([style*="--svg-fill"]) svg * {
+  fill: #9CA3AF !important;
+  stroke: #9CA3AF !important;
+  color: #9CA3AF !important;
+}
+
+.item-card .weapon-icon-container:not([style*="--svg-fill"]) img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(64%) sepia(8%) saturate(878%) hue-rotate(201deg) brightness(97%) contrast(96%) !important;
+}
+
+/* Aplicar filtro CSS para colorir imagens SVG externas */
+.weapon-icon-container[style*="--svg-fill"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) !important;
+}
+
+/* Cores específicas para cada categoria usando filtros CSS */
+.weapon-icon-container[style*="#3B82F6"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(215deg) brightness(119%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#F59E0B"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(64%) sepia(88%) saturate(2890%) hue-rotate(349deg) brightness(119%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#D97706"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(9deg) brightness(119%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#65A30D"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(65deg) brightness(119%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#DC2626"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(17%) sepia(95%) saturate(7471%) hue-rotate(3deg) brightness(90%) contrast(96%) !important;
+}
+
+.weapon-icon-container[style*="#0891B2"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(175deg) brightness(119%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#EC4899"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(320deg) brightness(119%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#B91C1C"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(17%) sepia(95%) saturate(7471%) hue-rotate(3deg) brightness(70%) contrast(96%) !important;
+}
+
+.weapon-icon-container[style*="#7C3AED"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(260deg) brightness(119%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#EA580C"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(15deg) brightness(119%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#EF4444"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(17%) sepia(95%) saturate(7471%) hue-rotate(3deg) brightness(100%) contrast(96%) !important;
+}
+
+.weapon-icon-container[style*="#10B981"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(120deg) brightness(119%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#8B5CF6"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(260deg) brightness(140%) contrast(119%) !important;
+}
+
+.weapon-icon-container[style*="#06B6D4"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(180deg) brightness(119%) contrast(119%) !important;
+}
+
+/* Cores específicas para armas corpo a corpo */
+.weapon-icon-container[style*="#0EA5E9"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(96%) saturate(1151%) hue-rotate(182deg) brightness(97%) contrast(94%) !important;
+}
+
+.weapon-icon-container[style*="#059669"] img[src$=".svg"] {
+  filter: brightness(0) saturate(100%) invert(39%) sepia(36%) saturate(4408%) hue-rotate(120deg) brightness(97%) contrast(94%) !important;
+}
+
+/* Força aplicação de cores em todas as imagens SVG com cores definidas */
+.weapon-icon-container[style*="--svg-fill"] img {
+  filter: var(--svg-filter, none) !important;
+}
+
+  /* Manter branco para elementos específicos */
+  .weapon-icon-container svg *[fill="white"],
+  .weapon-icon-container svg *[fill="#ffffff"],
+  .weapon-icon-container svg *[fill="#FFFFFF"],
+  .weapon-icon-container svg *[fill="#fff"],
+  .weapon-icon-container svg *[fill="#FFF"] {
+    fill: white !important;
+    stroke: white !important;
+  }
+
+}
