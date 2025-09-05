@@ -307,9 +307,14 @@ const SidePanel: React.FC = () => {
             <span className="text-bronze-light">Valor total (inventário):</span>
             <span className="text-light-text font-medium">
               {formatCurrency(
-                Object.values(state.inventory.items).reduce((total, item) => 
-                  total + (item.price_db * (item.qty || 1)), 0
-                )
+                Object.values(state.inventory.items).reduce((total, item) => {
+                  // Para munições, price_db já contém o valor total das munições individuais
+                  if (item.ammo) {
+                    return total + item.price_db;
+                  }
+                  // Para outros itens, multiplicar pela quantidade
+                  return total + (item.price_db * (item.qty || 1));
+                }, 0)
               )}
             </span>
           </div>
@@ -320,6 +325,11 @@ const SidePanel: React.FC = () => {
                 Object.values(state.equippedItems).reduce((total, item) => {
                   // Não contar cópias de armas pesadas para evitar duplicação
                   if (item.isLeftHandCopy) return total;
+                  // Para munições, price_db já contém o valor total das munições individuais
+                  if (item.ammo) {
+                    return total + item.price_db;
+                  }
+                  // Para outros itens, multiplicar pela quantidade
                   return total + (item.price_db * (item.qty || 1));
                 }, 0)
               )}
@@ -329,12 +339,22 @@ const SidePanel: React.FC = () => {
             <span className="text-gold-soft font-semibold">Valor total geral:</span>
             <span className="text-gold-soft font-bold">
               {formatCurrency(
-                Object.values(state.inventory.items).reduce((total, item) => 
-                  total + (item.price_db * (item.qty || 1)), 0
-                ) +
+                Object.values(state.inventory.items).reduce((total, item) => {
+                  // Para munições, price_db já contém o valor total das munições individuais
+                  if (item.ammo) {
+                    return total + item.price_db;
+                  }
+                  // Para outros itens, multiplicar pela quantidade
+                  return total + (item.price_db * (item.qty || 1));
+                }, 0) +
                 Object.values(state.equippedItems).reduce((total, item) => {
                   // Não contar cópias de armas pesadas para evitar duplicação
                   if (item.isLeftHandCopy) return total;
+                  // Para munições, price_db já contém o valor total das munições individuais
+                  if (item.ammo) {
+                    return total + item.price_db;
+                  }
+                  // Para outros itens, multiplicar pela quantidade
                   return total + (item.price_db * (item.qty || 1));
                 }, 0)
               )}

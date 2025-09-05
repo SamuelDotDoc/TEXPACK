@@ -5,27 +5,29 @@ import { GameContext, type GameAction } from './context';
 
 // Função auxiliar para calcular preço da munição baseado no catálogo
 const calculateAmmoPrice = (ammoType: string, quantity: number): number => {
-  // Preços base por unidade baseados no catálogo
-  const ammoPrices: { [key: string]: { pricePerUnit: number, baseQty: number } } = {
-    '9x19mm': { pricePerUnit: 45/50, baseQty: 50 },
-    '9x23mm': { pricePerUnit: 20/50, baseQty: 50 },
-    '.38 Special': { pricePerUnit: 25/50, baseQty: 50 },
-    '.45 ACP': { pricePerUnit: 40/50, baseQty: 50 },
-    '.44 Magnum': { pricePerUnit: 45/50, baseQty: 50 },
-    '12 Gauge': { pricePerUnit: 25/25, baseQty: 25 },
-    '20 Gauge': { pricePerUnit: 20/25, baseQty: 25 },
-    '.308 Winchester': { pricePerUnit: 30/20, baseQty: 20 },
-    '5.56x45mm': { pricePerUnit: 35/30, baseQty: 30 },
-    '7.62x39mm': { pricePerUnit: 30/30, baseQty: 30 },
-    '.50 BMG': { pricePerUnit: 50/10, baseQty: 10 }
+  // Preços base das caixas baseados no catálogo
+  const ammoPrices: { [key: string]: { boxPrice: number, boxQty: number } } = {
+    '9x19mm': { boxPrice: 45, boxQty: 50 },
+    '9x23mm': { boxPrice: 20, boxQty: 50 },
+    '.38 Special': { boxPrice: 25, boxQty: 50 },
+    '.45 ACP': { boxPrice: 40, boxQty: 50 },
+    '.44 Magnum': { boxPrice: 45, boxQty: 50 },
+    '12 Gauge': { boxPrice: 25, boxQty: 25 },
+    '20 Gauge': { boxPrice: 20, boxQty: 25 },
+    '.308 Winchester': { boxPrice: 30, boxQty: 20 },
+    '5.56x45mm': { boxPrice: 35, boxQty: 30 },
+    '7.62x39mm': { boxPrice: 30, boxQty: 30 },
+    '.50 BMG': { boxPrice: 50, boxQty: 10 }
   };
   
   const ammoData = ammoPrices[ammoType];
   if (ammoData) {
-    return Math.round(ammoData.pricePerUnit * quantity * 100) / 100;
+    // Calcula o preço por unidade e multiplica pela quantidade
+    const pricePerUnit = ammoData.boxPrice / ammoData.boxQty;
+    return Math.round(pricePerUnit * quantity * 100) / 100;
   }
   
-  // Preço padrão se não encontrar no catálogo
+  // Preço padrão se não encontrar no catálogo (0.5 DB por unidade)
   return Math.round(0.5 * quantity * 100) / 100;
 };
 
